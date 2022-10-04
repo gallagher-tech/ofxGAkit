@@ -15,11 +15,11 @@
 # and the PG will write to the console the kind of error and in which line it is
 
 meta:
-	ADDON_NAME = ofxGANative
+	ADDON_NAME = ofxGAKit
 	ADDON_DESCRIPTION = Native app toolkit from Gallagher & Associates
 	ADDON_AUTHOR = @tyhenry
 	ADDON_TAGS = "scenegraph", "app"
-	ADDON_URL = https://github.com/gallagher-tech/ofxGANative-staging
+	ADDON_URL = https://github.com/gallagher-tech/ofxGAKit
 
 common:
 	# dependencies with other addons, a list of them separated by spaces 
@@ -29,7 +29,7 @@ common:
 	# include search paths, this will be usually parsed from the file system
 	# but if the addon or addon libraries need special search paths they can be
 	# specified here separated by spaces or one per line using +=
-	ADDON_INCLUDES = libs/ga_native/src/ libs/ga_native/external/ src/
+	ADDON_INCLUDES = libs/gaKit/src/ libs/gaKit/external/ src/
 	
 	# any special flag that should be passed to the compiler when using this
 	# addon

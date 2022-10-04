@@ -1,5 +1,5 @@
 #pragma once
-#include "ofxGANative.h"
+#include "ofxGAKit.h"
 
 class SquareNode : public ga::Node
 {
