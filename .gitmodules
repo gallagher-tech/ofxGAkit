@@ -1,0 +1,3 @@
+[submodule "libs/gaKit"]
+	path = libs/gaKit
+	url = git@github.com:gallagher-tech/gaKit.git
