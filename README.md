@@ -9,17 +9,23 @@ Like most other oF addons, simply `git clone` this repo inside of your `openFram
 
 ```sh
 cd openFrameworks/addons
-git clone https://github.com/gallagher-tech/ofxGAKit
+git clone --recursive https://github.com/gallagher-tech/ofxGAKit
+```
+
+_If you missed the `recursive` flag when cloning, use following command to get the ga::kit submodule:_
+
+```sh
+git submodule update --init --recursive
 ```
 
 Then use the oF Project Generator to generate a project with `ofxGAKit` selected.
 
-## ga::native?
+## ga::kit?
 
-`ga::native` is G&A's in-house C++ application framework for building interactive experiences.  
+`ga::kit` is G&A's in-house C++ application framework for building interactive experiences.  
 We use it to create anything from 2D UI prototypes to high-performance 3D immersive installations.
 
-You can find more information on the library [here](libs/ga_native/README.md).
+You can find more information on the library [here](libs/gaKit/README.md).
 
 ## Features
 
