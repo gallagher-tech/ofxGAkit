@@ -20,12 +20,12 @@ git submodule update --init --recursive
 
 Then use the oF Project Generator to generate a project with `ofxGAKit` selected.
 
-## ga::kit?
+## [ga::kit](https://github.com/gallagher-tech/gaKit/)?
 
 `ga::kit` is G&A's in-house C++ application framework for building interactive experiences.  
 We use it to create anything from 2D UI prototypes to high-performance 3D immersive installations.
 
-You can find more information on the library [here](libs/gaKit/README.md).
+You can find more information on the library [here](https://github.com/gallagher-tech/gaKit/blob/main/README.md).
 
 ## Features
 
