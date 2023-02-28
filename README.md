@@ -1,6 +1,6 @@
-# ofxGAKit
+# ofxGAkit
 
-`ofxGAKit` is the official openFrameworks addon for the `ga::native` toolkit - Gallagher & Associates' in-house C++ toolkit for building interactive experiences.  
+`ofxGAkit` is the official openFrameworks addon for the `GA::kit` toolkit - Gallagher & Associates' in-house C++ toolkit for building interactive experiences.  
 It provides your openFrameworks app with a full-featured 3D scenegraph, a powerful animation system, asset management, event handlers, layout utilities, and much more.
 
 ## Setup
@@ -9,23 +9,23 @@ Like most other oF addons, simply `git clone` this repo inside of your `openFram
 
 ```sh
 cd openFrameworks/addons
-git clone --recursive https://github.com/gallagher-tech/ofxGAKit
+git clone --recursive https://github.com/gallagher-tech/ofxGAkit
 ```
 
-_If you missed the `recursive` flag when cloning, use following command to get the ga::kit submodule:_
+_If you missed the `recursive` flag when cloning, use following command to get the GA::kit submodule:_
 
 ```sh
 git submodule update --init --recursive
 ```
 
-Then use the oF Project Generator to generate a project with `ofxGAKit` selected.
+Then use the oF Project Generator to generate a project with `ofxGAkit` selected.
 
-## [ga::kit](https://github.com/gallagher-tech/gaKit/)?
+## [GA::kit](https://github.com/gallagher-tech/GAkit/)?
 
-`ga::kit` is G&A's in-house C++ application framework for building interactive experiences.  
+`GA::kit` is G&A's in-house C++ application framework for building interactive experiences.  
 We use it to create anything from 2D UI prototypes to high-performance 3D immersive installations.
 
-You can find more information on the library [here](https://github.com/gallagher-tech/gaKit/blob/main/README.md).
+You can find more information on the library [here](https://github.com/gallagher-tech/GAkit/blob/main/README.md).
 
 ## Features
 
