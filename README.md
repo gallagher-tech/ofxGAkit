@@ -1,6 +1,6 @@
 <div align="center">
   <p>
-    <a align="center" href="https://github.com/gallagher-tech/ofxGAkit" target="_blank">
+    <a align="center" href="https://github.com/gallagher-tech/ofxGAkit" target="_self">
       <img width="100%" src="banner.jpg"></a>
   </p>
 
