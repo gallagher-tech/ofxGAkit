@@ -1,4 +1,12 @@
+<div align="center">
+  <p>
+    <a align="center" href="https://github.com/gallagher-tech/ofxGAkit" target="_self">
+      <img width="100%" src="banner.jpg"></a>
+  </p>
+
 # ofxGAkit
+
+</div>
 
 | [ofxGAkit Repo](https://github.com/gallagher-tech/ofxGAkit) | [GA::kit Repo](https://github.com/gallagher-tech/GAkit/) | [Documentation](https://gallagher-tech.github.io/GAkit-doc/) |
 
