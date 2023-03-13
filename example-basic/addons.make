@@ -1,1 +1,1 @@
-ofxGAKit
+ofxGAkit
