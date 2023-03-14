@@ -1,7 +1,7 @@
 #pragma once
 #pragma once
 
-#include "ofxGAKit.h"
+#include "ofxGAkit.h"
 #include "of3dPrimitives.h"
 
 class SphereNode : public ga::Node
