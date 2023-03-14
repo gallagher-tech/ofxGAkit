@@ -1,6 +1,6 @@
 #pragma once
 
-#include "ofxGAKit.h"
+#include "ofxGAkit.h"
 class Derived : public ga::Node
 {
 

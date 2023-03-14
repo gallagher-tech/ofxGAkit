@@ -1,7 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
-#include "ofxGAKit.h"
+#include "ofxGAkit.h"
 
 #include "SphereNode.h"
 #include "SquareNode.h"
