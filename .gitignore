@@ -13,7 +13,7 @@ package-lock.json
 player/out.html
 player/src/output.tw2
 
-/libs/gaKit
+/libs/GAkit
 .code-workspace
 #########################
 # openFrameworks patterns

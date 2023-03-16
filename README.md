@@ -1,7 +1,7 @@
 <div align="center">
   <p>
     <a align="center" href="https://github.com/gallagher-tech/ofxGAkit" target="_self">
-      <img width="100%" src="banner.jpg"></a>
+      <img width="100%" src="./imgs/banner.jpg"></a>
   </p>
 
 # ofxGAkit
@@ -14,6 +14,8 @@
 It provides your openFrameworks app with a full-featured 3D scenegraph, a powerful animation system, asset management, event handlers, layout utilities, and much more.
 
 ## Setup
+
+**This addon has been tested with openFrameworks v0.11.2 on both Windows and Mac**
 
 Like most other oF addons, simply `git clone --recursive` this repo inside of your `openFrameworks/addons/` directory:
 
@@ -30,14 +32,16 @@ git submodule update --init --recursive
 
 Then use the oF Project Generator to generate a project with `ofxGAkit` selected.
 
+* **For Mac Xcode users** using the latest release (v0.11.2) version of openFrameworks:  
+Switch to `C++14` in both Project and Target settings. Look for `Build Settings` - `All` - `Apple Clang - Language - C++` - `C++ Language Support`, then select `C++ 14 [-std=c++14]`.  
+See [screenshot](./imgs/mac-xcode-setup.png) in [`./imgs`](./imgs) for reference.
+
 _Additionally, if you are looking for a development branch of `GA::kit`, use the following commands to checkout the desired branch after the steps above:_
 
 ```sh
-cd libs/gaKit
+cd libs/GAkit
 git checkout [BRANCH_NAME]
 ```
-
-**This addon has been tested to work on Windows 10/11.**
 
 ## [GA::kit](https://github.com/gallagher-tech/GAkit/)?
 
@@ -69,7 +73,7 @@ You can find more information and documentation [here](https://gallagher-tech.gi
 
 ## Requirements
 
-- C++11
+- C++14
 - OpenGL 3+
 - [**glm**](https://github.com/g-truc/glm)
 - [**nlohmann::json**](https://github.com/nlohmann/json)
