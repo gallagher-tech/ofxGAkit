@@ -39,7 +39,7 @@ See [screenshot](./imgs/mac-xcode-setup.png) in [`./imgs`](./imgs) for reference
 _Additionally, if you are looking for a development branch of `GA::kit`, use the following commands to checkout the desired branch after the steps above:_
 
 ```sh
-cd libs/gaKit
+cd libs/GAkit
 git checkout [BRANCH_NAME]
 ```
 
